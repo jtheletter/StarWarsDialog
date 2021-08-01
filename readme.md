@@ -42,7 +42,7 @@ A bot to tweet written works line by line in order.
 - Save the work’s lines to the `lines` directory, and add its name to the `works.js` list.
 - Create a Twitter account.
 - Generate tokens/keys to authorize the Twitter app to post to the Twitter account ([here](https://medium.com/geekculture/how-to-create-multiple-bots-with-a-single-twitter-developer-account-529eaba6a576) is one way to do so). Save to `config/twitter/<work>/dev.js`.
-- Create an AWS SSM Parameter Store named `/<work>/index` with Value `0`. Save its region in `config/aws/<work>/`.
+- Create an AWS SSM Parameter Store named `/<work>/index` with string/text value `0`. Save its region in `config/aws/<work>/`.
 - Create an AWS lambda function.
   - Author from scratch.
   - Set the function name to the work’s name.
