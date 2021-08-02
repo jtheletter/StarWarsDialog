@@ -3486,7 +3486,7 @@ module.exports = [
 'Up the heavens cold and steep;',
 'Turn when dawn comes over land,',
 'Over rapid, over sand,',
-'South away! and South away!',
+'South away! and South away!',
 'Seek the sunlight and the day,',
 'Back to pasture, back to mead,',
 'Where the kine and oxen feed!',
