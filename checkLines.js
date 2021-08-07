@@ -1,7 +1,13 @@
-// Prevent Twitter rejecting lines as too long or as duplicate tweets.
-function checkLines (lines = [], charLimit = 280, dupeLimit = 8) {
+// Check for lines that are too long for Twitter, or that are duplicates too near to each other for Twitter, and log the results.
 
-    console.log(`Checking for lines longer than ${charLimit} characters, and for duplicate lines within ${dupeLimit} indices of each other.`);
+function checkLines (charLimit = 280, dupeLimit = 8) {
+
+    if (!Array.isArray(lines) || lines.length < 1) {
+        console.error('Invalid lines. Expected an array of strings. Received:', lines);
+        return;
+    }
+
+    console.log(`Checking ${work} for lines longer than ${charLimit} characters, and for duplicate lines within ${dupeLimit} indices of each other.`);
 
     const longs = [];
     const dupes = [];
@@ -26,10 +32,11 @@ function checkLines (lines = [], charLimit = 280, dupeLimit = 8) {
 }
 
 const works = require('./works');
-const work = process.env.WORK || process.argv[2];
+const work = process.argv[2];
+
 if (!works.includes(work)) {
     throw new Error(`Invalid work: ${work}`);
 }
-const lines = require(`./lines/${work}`);
 
-checkLines(lines);
+const lines = require(`./lines/${work}`);
+checkLines();
