@@ -5,7 +5,7 @@
 // If breaker is one "word", then overly long lines will be split by the breaker, with the breaker appended to the end of each fragment except the last.
 // If breaker is two "words", then long lines are split by the breaker phrase, with the first word appended to the end of each fragment but the last, and the second word prepended to start of each fragment except the first.
 
-function breakLines (charLimit = 280) {
+function breakLongLines (charLimit = 280) {
 
     if (!Array.isArray(lines) || lines.length < 1) {
         console.error('Invalid lines. Expected an array of strings. Received:', lines);
@@ -52,8 +52,15 @@ console.log('breaker:', breaker);
 console.log('breaker.length:', breaker.length);
 
 let lines = require(`./lines/${work}`);
-lines = breakLines();
-fs.writeFile(`./lines/${work}.js`, `module.exports = [\n\'${lines.join('\',\n\'')}\',\n];\n`, function (error) {
+lines = breakLongLines();
+
+lines.forEach(function (line, ind) {
+    lines[ind] = line.replace(/\n/g, '\\n'); // Preserve in-string newlines.
+});
+
+let data = `module.exports = [\n\'${lines.join('\',\n\'')}\',\n];\n`; // Create data string to write file.
+
+fs.writeFile(`./lines/${work}.js`, data, function (error) {
     if (error) {
         throw error;
     }

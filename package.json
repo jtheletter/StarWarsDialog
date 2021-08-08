@@ -1,6 +1,6 @@
 {
     "name": "twitterdialogbot",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "Twitter bot that posts written works line by line in order.",
     "author": "JP",
     "license": "ISC",
@@ -12,7 +12,7 @@
     "main": "index.js",
     "scripts": {
         "check-lines": "node checkLines.js ${WORK}",
-        "break-lines": "node breakLines.js ${WORK}",
+        "break-long-lines": "node breakLongLines.js ${WORK}",
         "confirm-twitter": "node index.js ${WORK} confirm-twitter",
         "get-index": "node index.js ${WORK} get-index",
         "set-index": "node index.js ${WORK} set-index",

@@ -65,7 +65,7 @@ A bot to tweet written works line by line in order.
 - View logs in AWS CloudWatch.
 - Command-line scripts:
     - Check lines meet Twitter limits: `WORK=<work> npm run check-lines`
-    - Break lines to meet Twitter limits (overwrites the work’s “lines” file): `WORK=<work> npm run break-lines <breaker>`
+    - Break lines to meet Twitter limits (overwrites the work’s “lines” file): `WORK=<work> npm run break-long-lines "<breaker>"`
     - Confirm Twitter credentials: `WORK=<work> npm run confirm-twitter`
     - Get index from AWS storage: `WORK=<work> npm run get-index`
     - Set index in AWS storage: `WORK=<work> npm run set-index <index>`
