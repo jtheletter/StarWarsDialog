@@ -6,6 +6,7 @@ module.exports = [
     'hobbit',
     'indyjones',
     'lotr',
+    'princessbride',
     'starwars',
     'walden',
     'willows',
