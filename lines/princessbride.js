@@ -1206,5 +1206,5 @@ module.exports = [
 'Grandpa?',
 'Maybe you could come over and read it again to me tomorrow.',
 'As you wish.',
-'Screenplay by WILLIAM GOLDMAN\nBased upon his book'
+'Screenplay by WILLIAM GOLDMAN\nBased upon his book',
 ];
