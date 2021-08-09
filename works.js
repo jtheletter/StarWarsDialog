@@ -1,5 +1,6 @@
 module.exports = [
     'alice',
+    'barsoom',
     'bartleby',
     'bttf',
     'ghostbusters',
@@ -7,7 +8,9 @@ module.exports = [
     'indyjones',
     'lotr',
     'princessbride',
+    'romeojuliet',
     'starwars',
+    'timemachine',
     'walden',
     'willows',
 ];
