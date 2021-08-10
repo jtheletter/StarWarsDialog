@@ -1,6 +1,6 @@
-# twitter dialog bot
+# Tweets Line by Line
 
-A bot to tweet written works line by line in order.
+Written works in tweets line by line.
 
 ## Code Dependencies:
 

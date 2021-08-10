@@ -1,13 +1,13 @@
 {
-    "name": "twitterdialogbot",
-    "version": "2.2.1",
-    "description": "Twitter bot that posts written works line by line in order.",
+    "name": "TweetsLineByLine",
+    "version": "3.0.0",
+    "description": "Written works in tweets line by line.",
     "author": "JP",
     "license": "ISC",
     "keywords": [],
     "repository": {
         "type": "git",
-        "url": "git://github.com/jtheletter/twitterdialogbot.git"
+        "url": "git://github.com/jtheletter/TweetsLineByLine.git"
     },
     "main": "index.js",
     "scripts": {
@@ -16,8 +16,8 @@
         "confirm-twitter": "node index.js ${WORK} confirm-twitter",
         "get-index": "node index.js ${WORK} get-index",
         "set-index": "node index.js ${WORK} set-index",
-        "zip": "rm twitterdialogbot.zip && zip -r twitterdialogbot.zip . -x \"**/*.gif\" -x \"**/*.jp*\" -x \"**/*.mov\" -x \"**/*.mp*\" -x \"**/*.png\" -x \"**/.DS_Store\" -x \"**/__*\" -x \"*.git*\" -x \"*.md\" -x \"*.zip\" -x \".DS_Store\" -x \"__*\" -x \"check.js\" -x \"config/**/dev.js\" -x \"images*\" && du -h twitterdialogbot.zip",
-        "deploy": "aws lambda update-function-code --zip-file fileb://twitterdialogbot.zip --cli-connect-timeout 150 --function-name ${WORK}",
+        "zip": "if [[ -f TweetsLineByLine.zip ]]; then rm TweetsLineByLine.zip; fi; zip -r TweetsLineByLine.zip . -x \"**/*.gif\" -x \"**/*.jp*\" -x \"**/*.mov\" -x \"**/*.mp*\" -x \"**/*.png\" -x \"**/.DS_Store\" -x \"**/__*\" -x \"*.git*\" -x \"*.md\" -x \"*.xlsx\" -x \"*.zip\" -x \".DS_Store\" -x \"__*\" -x \"check.js\" -x \"config/**/dev.js\" -x \"images*\"; du -h TweetsLineByLine.zip;",
+        "deploy": "aws lambda update-function-code --zip-file fileb://TweetsLineByLine.zip --cli-connect-timeout 150 --function-name ${WORK}",
         "execute": "node index.js ${WORK} execute"
     },
     "dependencies": {
