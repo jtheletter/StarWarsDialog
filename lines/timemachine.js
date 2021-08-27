@@ -1,6 +1,4 @@
-module.exports = [
-'THE TIME MACHINE',
-'An Invention',
+module.exports = ['THE TIME MACHINE','An Invention',
 'by H.G. WELLS',
 'Chapter I: INTRODUCTION',
 'The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us.',
@@ -45,8 +43,7 @@ module.exports = [
 'That Space, as our mathematicians have it, is spoken of as having three dimensions, which one may call Length, Breadth, and Thickness, and is always definable by reference to three planes, each at right angles to the others.',
 'But some philosophical people have been asking why three dimensions particularly—why not another direction at right angles to the other three?—and have even tried to construct a Four-Dimensional geometry.',
 'Professor Simon Newcomb was expounding this to the New York Mathematical Society only a month or so ago.',
-'You know how on a flat surface, which has only two dimensions, we can represent a figure of a three-dimensional solid, and similarly they think that by models of three dimensions they could represent one of four—if they could master the perspective of the thing.',
-'See?”',
+'You know how on a flat surface, which has only two dimensions, we can represent a figure of a three-dimensional solid, and similarly they think that by models of three dimensions they could represent one of four—if they could master the perspective of the thing. See?”',
 '“I think so,” murmured the Provincial Mayor; and, knitting his brows, he lapsed into an introspective state, his lips moving as one who repeats mystic words.',
 '“Yes, I think I see it now,” he said after some time, brightening in a quite transitory manner.',
 '“Well, I do not mind telling you I have been at work upon this geometry of Four Dimensions for some time.',
