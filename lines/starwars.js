@@ -1,6 +1,4 @@
-module.exports = [
-'A long time ago in a galaxy far, far away…',
-'STAR WARS',
+module.exports = ['A long time ago in a galaxy far, far away…','STAR WARS',
 'Episode I',
 'THE PHANTOM MENACE',
 'Turmoil has engulfed the Galactic Republic. The taxation of trade routes to outlying star systems is in dispute.',
@@ -1410,7 +1408,7 @@ module.exports = [
 'Oh… yes. Heh heh heh…',
 'You’re sweating. Relax. Take a deep breath.',
 'I haven’t seen her in ten years, Master.',
-'Obi? Obi! Mesa so smilen to seein yousa!',
+'Obi? Obi! Mesa so smilen to see-en yousa!',
 'Good to see you again, Jar Jar.',
 'Senator Padmé! Mesa palos here.',
 'Looky, looky, Senator. Desa Jedi arriven.',
