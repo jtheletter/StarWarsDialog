@@ -1,6 +1,4 @@
-module.exports = [
-'A PRINCESS OF MARS',
-'By EDGAR RICE BURROUGHS',
+module.exports = ['A PRINCESS OF MARS','By EDGAR RICE BURROUGHS',
 'To My Son Jack',
 'FOREWORD',
 'To the Reader of this Work:',

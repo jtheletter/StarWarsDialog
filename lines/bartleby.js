@@ -1,6 +1,4 @@
-module.exports = [
-'BARTLEBY, THE SCRIVENER: A STORY OF WALL‑STREET',
-'By HERMAN MELVILLE',
+module.exports = ['BARTLEBY, THE SCRIVENER: A STORY OF WALL‑STREET','By HERMAN MELVILLE',
 'I am a rather elderly man.',
 'The nature of my avocations for the last thirty years has brought me into more than ordinary contact with what would seem an interesting and somewhat singular set of men, of whom as yet nothing that I know of has ever been written:—I mean the law-copyists or scriveners.',
 'I have known very many of them, professionally and privately, and if I pleased, could relate divers histories, at which good-natured gentlemen might smile, and sentimental souls might weep.',
