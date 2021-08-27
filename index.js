@@ -12,6 +12,7 @@ async function getIndex () {
             throw new Error(`Invalid index: ${index}`);
         }
         console.log('Get from storage success:', result);
+        console.log(`Index from storage is ${result.Parameter.Value}.`);
         return index;
     } catch (error) {
         console.error('Get from storage failure:', error);
