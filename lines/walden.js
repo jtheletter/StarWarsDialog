@@ -1,6 +1,4 @@
-module.exports = [
-'WALDEN',
-'Or LIFE IN THE WOODS',
+module.exports = ['WALDEN','Or LIFE IN THE WOODS',
 'By HENRY DAVID THOREAU',
 'Chapter I: ECONOMY',
 'When I wrote the following pages, or rather the bulk of them, I lived alone, in the woods, a mile from any neighbor, in a house which I had built myself, on the shore of Walden Pond, in Concord, Massachusetts, and earned my living by the labor of my hands only.',
@@ -164,8 +162,8 @@ module.exports = [
 'It appears, therefore, from the above list, that the expression, animal life, is nearly synonymous with the expression, animal heat;',
 'for while Food may be regarded as the Fuel which keeps up the fire within us,—and Fuel serves only to prepare that Food or to increase the warmth of our bodies by addition from without,—Shelter and Clothing also serve only to retain the heat thus generated and absorbed.',
 'The grand necessity, then, for our bodies, is to keep warm, to keep the vital heat in us.',
-'What pains we accordingly take, not only with our Food, and Clothing, and Shelter, but with our beds,',
-'which are our night-clothes, robbing the nests and breasts of birds to prepare this shelter within a shelter, as the mole has its bed of grass and leaves at the end of its burrow!',
+'What pains we accordingly take, not only with our Food, and Clothing, and Shelter, but with our beds, which are our night-clothes,',
+'robbing the nests and breasts of birds to prepare this shelter within a shelter, as the mole has its bed of grass and leaves at the end of its burrow!',
 'The poor man is wont to complain that this is a cold world; and to cold, no less physical than social, we refer directly a great part of our ails.',
 'The summer, in some climates, makes possible to man a sort of Elysian life.',
 'Fuel, except to cook his Food, is then unnecessary; the sun is his fire, and many of the fruits are sufficiently cooked by its rays; while Food generally is more various, and more easily obtained, and Clothing and Shelter are wholly or half unnecessary.',
